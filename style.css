@@ -32,5 +32,30 @@
   }
 
   .root-nav{
-    
+    width: 150px;
+  }
+
+  .root-nav li {
+    list-style-type: none;
+    background: tomato;
+    padding-inline-end: 0;
+    position: relative;
+  }
+
+  .root-nav a,
+  .root-nav span{
+    text-decoration:  none;
+    color: white;
+    display: block;
+    padding: 5px 15px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .root-nav ul {
+    /* display: none; */
+    position: absolute;
+    right: -120px;
+    top: 0;
+    width: 150px;
   }
