@@ -53,9 +53,13 @@
   }
 
   .root-nav ul {
-    /* display: none; */
+    display: none;
     position: absolute;
     right: -120px;
     top: 0;
     width: 150px;
+  }
+
+  ul.sub-menu-active {
+    display: block;
   }
